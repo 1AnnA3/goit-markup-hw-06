@@ -64,6 +64,10 @@ body {
 
 /*====== Header Styles ======*/
 
+.page-nav {
+  display: flex;
+}
+
 .page-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -77,6 +81,10 @@ body {
 
 .text-bl {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
 }
 
 .menu-link {
@@ -93,6 +101,7 @@ body {
 
 .main-contact {
   font-style: normal;
+  display: flex;
 }
 .contact-link {
   font-weight: 400;
@@ -179,6 +188,7 @@ body {
 .team-list-item {
   background-color: #ffffff;
 }
+
 .team-list-name {
   font-weight: 500;
   font-size: 20px;
