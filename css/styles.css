@@ -193,7 +193,7 @@ body {
 /*====== Benefits Styles ======*/
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .benefits-list-title {
@@ -210,7 +210,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px) / 4);
 }
 /*====== /Benefits Styles/ ======*/
 
@@ -233,7 +233,7 @@ body {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-list-item {
