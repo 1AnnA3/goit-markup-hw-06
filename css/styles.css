@@ -106,12 +106,15 @@ body {
   gap: 40px;
 }
 
-.menu-link {
-  position: relative;
+.menu-item {
   color: #404bbf;
 }
-.menu-link:hover::after,
-.menu-link:focus::after {
+
+.menu-link {
+  position: relative;
+}
+.menu-item:hover::after,
+.menu-item:focus::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -439,12 +442,12 @@ body {
 .container-footer {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  align-items: baseline;
 }
 .footer-start {
   margin-right: 120px;
