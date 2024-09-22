@@ -106,15 +106,13 @@ body {
   gap: 40px;
 }
 
-.menu-item {
+.menu-link {
+  position: relative;
   color: #404bbf;
 }
 
-.menu-link {
-  position: relative;
-}
-.menu-item:hover::after,
-.menu-item:focus::after {
+.menu-link:hover::after,
+.menu-link:hover::after {
   content: "";
   position: absolute;
   width: 100%;
