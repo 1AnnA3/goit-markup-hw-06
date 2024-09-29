@@ -536,6 +536,7 @@ body {
 }
 
 .footer-form-submit-btn {
+  position: relative;
   border-radius: 4px;
   padding: 8px 24px;
   width: 165px;
@@ -549,9 +550,15 @@ body {
   background: #4d5ae5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: 8px 64px 8px 24px;
   flex-direction: row;
   gap: 16px;
+}
+.footer-form-input-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
 }
 
 /*====== /Footer Styles/ ======*/
